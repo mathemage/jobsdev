@@ -11,7 +11,7 @@ package net.homecredit.jobsdev;
 public interface MazeSolver {
 
     /**
-     * Test the given maze if there is a path from top to bottom. The given maze is always non null and rectangular.
+     * Tests the given maze if there is a path from top to bottom. The given maze is always non null and rectangular.
      * Do not throw any exception.
      * @param mazeMatrix    maze definition, you can modify it
      * @return  true if some path exists otherwise false.

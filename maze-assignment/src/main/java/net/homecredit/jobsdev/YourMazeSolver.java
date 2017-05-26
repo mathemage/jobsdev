@@ -3,7 +3,9 @@ package net.homecredit.jobsdev;
 /**
  * Your implementation goes here.
  *
- * @author you
+ * !! PLACE YOUR E-MAIL SOMEWHERE IN THE COMMENTS !!
+ *
+ * @author you@earth
  */
 public class YourMazeSolver implements MazeSolver {
 

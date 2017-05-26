@@ -3,6 +3,7 @@ package net.homecredit.jobsdev.utils;
 import java.io.IOException;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Scanner;
 
@@ -39,7 +40,7 @@ public final class Mazes {
      * @return  maze definition
      */
     public static boolean[][] readMaze(Path file) {
-        try (Scanner sc = new Scanner(file)) {
+        try (Scanner sc = new Scanner(Files.newBufferedReader(file))) {
             int n = sc.nextInt();
 
             boolean[][] data = new boolean[n][n];
