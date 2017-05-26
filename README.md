@@ -52,7 +52,7 @@ Legenda:
 V projektu naleznete 3 sady testovacích instancí:
 1. [YourMazeSolverTest1](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest1.java) - základní, triviální a hraniční případy 
 2. [YourMazeSolverTest2](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest2.java) - reálně vypadající, přesto stále malá bludiště
-3. [YourMazeSolverTest3](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest3.java) - velké náhodně vygenerované instance, načítané ze souboru [test_instances.zip](src/test/resources/test_instances.zip); jejich otestování může trvat řadu minut 
+3. [YourMazeSolverTest3](maze-assignment/src/test/java/net/homecredit/devjobs/YourMazeSolverTest3.java) - velké náhodně vygenerované instance, načítané ze souboru [test_instances.zip](src/test/resources/test_instances.zip); jejich otestování může trvat řadu minut 
 
 # Nápověda
 * Jednotlivé cesty či celé bludiště lze chápat různě - jako graf, množinou či matici.
@@ -69,7 +69,7 @@ Váš **e-mail uveďte v komentáři** kdekoliv v odevzdávaném souboru.
 
 Odevzdat můžete libovolný počet implementací, každá bude otestována a do celkového pořadí bude započítána vždy jen ta nejlepší.
 
-Odevzdávejte [link](zde)
+Odevzdávejte [zde](http://contest.embedit.cz:8080) (v případě problémů na mail roman.sovka@embedit.cz)
 
 # Vyhodnocení
 
