@@ -10,7 +10,7 @@ nebo několik cest se spojí a nakonec nevedou k žádnému výstupu, ...
  
 Bludiště může vypadat například takto:
  
-![sample maze](doc/sample_maze.png "Bludiště")
+![sample maze](maze-assignment/doc/sample_maze.png "Bludiště")
 
 ## Další omezení
 Testováná bludiště budou vždy jen čtvercová.
@@ -25,35 +25,35 @@ Bludiště je reprezentováno maticí booleovských hodnot, kde
 * **true** označuje bod na nějaké cestě
 * **false** označuje zeď
 
-**Doplňte vaši implementaci do třídy [YourMazeSolver](src/main/java/net/homecredit/jobsdev/YourMazeSolver.java).**
+**Doplňte vaši implementaci do třídy [YourMazeSolver](maze-assignment/src/main/java/net/homecredit/jobsdev/YourMazeSolver.java).**
 
 # Příklady
 Níže naleznete několik příkladů jednoduchých bludišť použitých v unit testech. Všimněte si, že cesty rozhodně nemusí být optimální.
 
 Legenda:
-* ![sample maze](doc/legenda_cesta_ok.png "cesta ok") - cesta vede skrz
-* ![sample maze](doc/legenda_cesta_nok.png "cesta nok") - cesta nevede skrz 
-* ![sample maze](doc/legenda_wall.png "zeď") - zeď
+* ![sample maze](maze-assignment/doc/legenda_cesta_ok.png "cesta ok") - cesta vede skrz
+* ![sample maze](maze-assignment/doc/legenda_cesta_nok.png "cesta nok") - cesta nevede skrz 
+* ![sample maze](maze-assignment/doc/legenda_wall.png "zeď") - zeď
 
 
-![sample maze_2x2_ok](doc/sample_2_ok.png "2x2, cesta existuje")
-![sample maze_2x2_nok](doc/sample_2_nok.png "2x2, cesta neexistuje") 
-![sample maze_3x3_nok](doc/sample_3_nok.png "3x3, cesta nexistuje")
-![sample maze_5x5_ok](doc/sample_5_ok.png "5x5, cesta existuje")
-![sample maze_5x5_2to1_ok](doc/sample_5_2to1_ok.png "5x5, cesta existuje")
+![sample maze_2x2_ok](maze-assignment/doc/sample_2_ok.png "2x2, cesta existuje")
+![sample maze_2x2_nok](maze-assignment/doc/sample_2_nok.png "2x2, cesta neexistuje") 
+![sample maze_3x3_nok](maze-assignment/doc/sample_3_nok.png "3x3, cesta nexistuje")
+![sample maze_5x5_ok](maze-assignment/doc/sample_5_ok.png "5x5, cesta existuje")
+![sample maze_5x5_2to1_ok](maze-assignment/doc/sample_5_2to1_ok.png "5x5, cesta existuje")
 
-![sample maze_6x6_maze_ok](doc/sample_6_snake_ok.png "6x6, cesta existuje")
-![sample maze_7x7_ok](doc/sample_7_ok.png "7x7, cesta existuje")
-![sample maze_8x8_ok](doc/sample_8_ok.png "8x8, cesta existuje")
-![sample maze_10x10_ok](doc/sample_10_ok.png "10x10, cesta existuje")
+![sample maze_6x6_maze_ok](maze-assignment/doc/sample_6_snake_ok.png "6x6, cesta existuje")
+![sample maze_7x7_ok](maze-assignment/doc/sample_7_ok.png "7x7, cesta existuje")
+![sample maze_8x8_ok](maze-assignment/doc/sample_8_ok.png "8x8, cesta existuje")
+![sample maze_10x10_ok](maze-assignment/doc/sample_10_ok.png "10x10, cesta existuje")
 
 
 
 V projektu naleznete 3 sady testovacích instancí:
-1. [YourMazeSolverTest1](src/test/java/net/homecredit/jobsdev/YourMazeSolverTest1.java) - základní, triviální a hraniční případy 
-2. [YourMazeSolverTest2](src/test/java/net/homecredit/jobsdev/YourMazeSolverTest2.java) - reálně vypadající, přesto stále malá bludiště
-3. [YourMazeSolverTest3](src/test/java/net/homecredit/jobsdev/YourMazeSolverTest3.java) - velké náhodně vygenerované instance, načítané ze souboru [test_instances.zip](src/test/resources/test_instances.zip); jejich otestování může trvat řadu minut 
-3. [YourMazeSolverTest4](src/test/java/net/homecredit/jobsdev/YourMazeSolverTest4.java) - velmi velké náhodně vygenerované instance, načítané ze souboru [test_instances.zip](src/test/resources/test_instances.zip); jejich otestování může trvat řadu minut;
+1. [YourMazeSolverTest1](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest1.java) - základní, triviální a hraniční případy 
+2. [YourMazeSolverTest2](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest2.java) - reálně vypadající, přesto stále malá bludiště
+3. [YourMazeSolverTest3](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest3.java) - velké náhodně vygenerované instance, načítané ze souboru [test_instances.zip](maze-assignment/src/test/resources/test_instances.zip); jejich otestování může trvat řadu minut 
+3. [YourMazeSolverTest4](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest4.java) - velmi velké náhodně vygenerované instance, načítané ze souboru [test_instances_ultimate.zip](maze-assignment/src/test/resources/test_instances_ultimate.zip); jejich otestování může trvat řadu minut;
  z důvodu velikosti souboru jsou umístěné v samostatné branch
 
 # Nápověda
@@ -66,7 +66,7 @@ V projektu naleznete 3 sady testovacích instancí:
 * Není vhodné hned od začátku testovat na největších instancích.
 
 # Odevzdání
-Odevzdávejte jeden _.java_ soubor s implementací rozhraní [MazeSolver](src/main/java/net/homecredit/jobsdev/MazeSolver.java)
+Odevzdávejte jeden _.java_ soubor s implementací rozhraní [MazeSolver](maze-assignment/src/main/java/net/homecredit/jobsdev/MazeSolver.java)
 
 Váš **e-mail uveďte v komentáři** kdekoliv v odevzdávaném souboru.
 
