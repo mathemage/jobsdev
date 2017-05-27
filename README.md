@@ -53,7 +53,7 @@ V projektu naleznete 3 sady testovacích instancí:
 1. [YourMazeSolverTest1](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest1.java) - základní, triviální a hraniční případy 
 2. [YourMazeSolverTest2](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest2.java) - reálně vypadající, přesto stále malá bludiště
 3. [YourMazeSolverTest3](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest3.java) - velké náhodně vygenerované instance, načítané ze souboru [test_instances.zip](maze-assignment/src/test/resources/test_instances.zip); jejich otestování může trvat řadu minut 
-3. [YourMazeSolverTest4](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest4.java) - velmi velké náhodně vygenerované instance, načítané ze souboru [test_instances_ultimate.zip](maze-assignment/src/test/resources/test_instances_ultimate.zip); jejich otestování může trvat řadu minut;
+3. [YourMazeSolverTest4](maze-assignment/src/test/java/net/homecredit/jobsdev/YourMazeSolverTest4.java) - velmi velké náhodně vygenerované instance, načítané ze souborů v samostatném repository [EIT-contest/jobsdev-big_test_instances](https://github.com/EIT-contest/jobsdev-big_test_instances); jejich otestování může trvat řadu minut;
  z důvodu velikosti souboru jsou umístěné v samostatné **branch test_instances_ultimate**
 
 # Nápověda

@@ -27,7 +27,7 @@ import static org.junit.Assert.assertEquals;
 public class YourMazeSolverTest4 {
 
     private final String BASE_DIR = "src/test/resources";
-    private final Path TEST_DATA_ARCHIVE = Paths.get(BASE_DIR, "test_instances_ultimate.zip");
+    private final Path TEST_DATA_ARCHIVE = Paths.get(BASE_DIR, "test_instances_2000-3000.zip");
 
 
     @Parameterized.Parameters(name = "test {index}: file {0}, paths exists {1}")
