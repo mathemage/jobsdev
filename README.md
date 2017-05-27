@@ -85,3 +85,11 @@ Součet počtu úspěšných testů a časů pak dá celkové skóre Vaší impl
 Celkové pořadí bude určeno podle počtu úspěšných unit testů a v případě shody podle nejkratšího dosaženého času.
 
 O výsledném pořadí včetně výherců budete informování e-mailem.
+
+# Výhry
+
+**1. místo - 50 000 Kč** 
+
+**2. místo - 30 000 Kč**
+ 
+**3. místo - 20 000 Kč**
