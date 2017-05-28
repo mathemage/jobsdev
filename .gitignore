@@ -1,0 +1,4 @@
+.idea/*
+maze-assignment/.idea/*
+*.iml
+maze-assignment/target/
