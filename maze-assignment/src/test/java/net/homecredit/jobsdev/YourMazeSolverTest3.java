@@ -1,12 +1,11 @@
 package net.homecredit.jobsdev;
 
 import net.homecredit.jobsdev.utils.Mazes;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -59,7 +58,6 @@ public class YourMazeSolverTest3 {
     private MazeSolver mazeSolver = new YourMazeSolver();
 
 
-    @Ignore("Unignore when you are ready, this will take a lot of time")
     @Test
     public void test() throws IOException {
         Path path = Mazes.getTestInstanceFile(TEST_DATA_ARCHIVE, fileName);

@@ -1,7 +1,6 @@
 package net.homecredit.jobsdev;
 
 import net.homecredit.jobsdev.utils.Mazes;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -27,7 +26,8 @@ import static org.junit.Assert.assertEquals;
 public class YourMazeSolverTest4 {
 
     private final String BASE_DIR = "src/test/resources";
-    private final Path TEST_DATA_ARCHIVE = Paths.get(BASE_DIR, "test_instances_2000-3000.zip");
+    private final Path TEST_DATA_ARCHIVE = Paths.get(BASE_DIR, "all.zip");
+//    private final Path TEST_DATA_ARCHIVE = Paths.get(BASE_DIR, "test_instances_2000-3000.zip");
 
 
     @Parameterized.Parameters(name = "test {index}: file {0}, paths exists {1}")
@@ -55,7 +55,6 @@ public class YourMazeSolverTest4 {
     private MazeSolver mazeSolver = new YourMazeSolver();
 
 
-    @Ignore("Unignore when you are ready, this will take a lot of time")
     @Test
     public void test() throws IOException {
         Path path = Mazes.getTestInstanceFile(TEST_DATA_ARCHIVE, fileName);
