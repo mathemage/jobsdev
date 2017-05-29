@@ -74,14 +74,14 @@ public class YourMazeSolver implements MazeSolver {
 			neighbors.add(rightNeighbor);
 		}
 		
-		Integer topNeighbor = cellIndex - n;
-		if (topNeighbor >= 0 && getRow(topNeighbor) < n ) {
-			neighbors.add(topNeighbor);
+		Integer upperNeighbor = cellIndex - n;
+		if (upperNeighbor >= 0 && getRow(upperNeighbor) < n ) {
+			neighbors.add(upperNeighbor);
 		}
 		
-		Integer bottomNeighbor = cellIndex + n;
-		if (getRow(bottomNeighbor) < n ) {                      // dubious condition, unnecessary in this implementation
-			neighbors.add(bottomNeighbor);
+		Integer lowerNeighbor = cellIndex + n;
+		if (getRow(lowerNeighbor) < n ) {                      // dubious condition, unnecessary in this implementation
+			neighbors.add(lowerNeighbor);
 		}
 		
 		return neighbors;
